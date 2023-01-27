@@ -1,18 +1,19 @@
 <script>
+import {truncateStr} from '../data/functions/';
 export default {
   name: 'ProjectCard',
    props:{
     project: Object
    },
 
+   data(){
+    return{
+      truncateStr
+    }
+   },
+
    methods:{
-    truncateStr(string){
-            if(string.length > 120){
-               return string.substr(0,120) + '...'
-            }else{
-                return string
-            }
-        }
+
     },
    
 }
