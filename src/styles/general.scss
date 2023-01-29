@@ -1,1 +1,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
+
+main{
+  margin-top: 70px ;
+  height: calc(100vh - 70px);
+  overflow-y: auto;
+}
